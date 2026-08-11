@@ -26,6 +26,21 @@ O repositório centraliza documentação, diagramas UML, scripts e evidências d
 
 - `scripts/` → Scripts auxiliares para manutenção e automação  
 
+
+---
+
+## 🌱 Estratégia de Branches
+
+- **main** → versão estável e homologada.  
+- **develop** → integração de funcionalidades antes do merge final.  
+- **feature/** → desenvolvimento de tarefas específicas.  
+  - Exemplo: `feature/cadastro-usuarios`  
+
+### Regras
+- Nenhum commit direto em `main` ou `develop`.  
+- Todo merge deve ser feito via Pull Request.  
+- Revisão obrigatória por pelo menos 1 integrante da equipe.  
+
 ---
 
 ## 🚀 Como usar
