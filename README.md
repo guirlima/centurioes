@@ -48,3 +48,7 @@ O repositório centraliza documentação, diagramas UML, scripts e evidências d
    ```bash
    git clone https://github.com/guirlima/centurioes.git
    cd centurioes
+
+---
+##Confirmação de leitura
+- Gabriel Tavares Bento
