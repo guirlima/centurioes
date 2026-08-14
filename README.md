@@ -39,7 +39,16 @@ O repositório centraliza documentação, diagramas UML, scripts e evidências d
 ### Regras
 - Nenhum commit direto em `main` ou `develop`.  
 - Todo merge deve ser feito via Pull Request.  
-- Revisão obrigatória por pelo menos 1 integrante da equipe.  
+
+### Tipos permitidos
+- **feat**: nova funcionalidade
+- **fix**: correção de bug
+- **docs**: alterações na documentação
+- **style**: ajustes de formatação (sem impacto no código)
+- **refactor**: refatoração de código sem mudança de comportamento
+- **test**: inclusão ou ajuste de testes
+- **chore**: tarefas auxiliares (build, configs, dependências)
+
 
 ---
 
@@ -51,6 +60,7 @@ O repositório centraliza documentação, diagramas UML, scripts e evidências d
 
 ---
 ##Confirmação de leitura
+- Guilherme Rodrigues de Lima
 - Gabriel Tavares Bento
 - Miguel Santana Matos
 - Roger Ferreira Cardoso
