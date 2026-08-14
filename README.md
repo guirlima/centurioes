@@ -53,3 +53,4 @@ O repositório centraliza documentação, diagramas UML, scripts e evidências d
 ##Confirmação de leitura
 - Gabriel Tavares Bento
 - Miguel Santana Matos
+- Roger Ferreira Cardoso
