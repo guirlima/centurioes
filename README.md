@@ -59,7 +59,7 @@ O repositório centraliza documentação, diagramas UML, scripts e evidências d
    cd centurioes
 
 ---
-##Confirmação de leitura
+##Confirmação de versionamento
 - Guilherme Rodrigues de Lima
 - Gabriel Tavares Bento
 - Miguel Santana Matos
