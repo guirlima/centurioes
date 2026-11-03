@@ -7,22 +7,11 @@ O repositório centraliza documentação, diagramas UML, scripts e evidências d
 ---
 
 ## 📂 Estrutura de Pastas
-- `src/` → Código-fonte e scripts principais  
-  - `src/modules/` → módulos específicos  
-  - `src/utils/` → funções auxiliares  
 
 - `docs/` → Documentação e artefatos  
   - `docs/backlogs/` → arquivos de backlog  
   - `docs/uml/` → diagramas UML (casos de uso, atividades, sequência, classes, estados)  
   - `docs/architecture/` → diagramas de arquitetura e OUs  
-
-- `tests/` → Scripts e evidências de testes  
-  - `tests/unit/` → testes unitários  
-  - `tests/integration/` → testes de integração  
-
-- `assets/` → Recursos estáticos (imagens, ícones, diagramas exportados)  
-
-- `config/` → Arquivos de configuração (`.env.example`, `settings.json`, políticas)  
 
 - `scripts/` → Scripts auxiliares para manutenção e automação  
 
@@ -58,9 +47,3 @@ O repositório centraliza documentação, diagramas UML, scripts e evidências d
    git clone https://github.com/guirlima/centurioes.git
    cd centurioes
 
----
-##Confirmação de versionamento
-- Guilherme Rodrigues de Lima
-- Gabriel Tavares Bento
-- Miguel Santana Matos
-- Roger Ferreira Cardoso
