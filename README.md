@@ -1,15 +1,22 @@
-## 🎯 Justificativa do Projeto
+## Projeto Active Directory na Fatec Barueri
 
-O crescimento e a complexidade da infraestrutura tecnológica da **Faculdade de Tecnologia de Barueri (Fatec Barueri)** demandam uma gestão de identidades e acessos (IAM) estruturada, segura e escalável. Anteriormente à concepção desta proposta, o ambiente enfrentava desafios operacionais críticos, tais como:
+O projeto foi criado para orientar a futura integração do Active Directory aos computadores da Fatec Barueri. A proposta busca organizar o cadastro de usuários, os acessos e a administração dos computadores dos ambientes acadêmico e administrativo.
 
-* **Uso de contas compartilhadas:** Docentes e discentes utilizavam credenciais genéricas ou compartilhadas nos computadores dos laboratórios, o que inviabilizava a rastreabilidade individual das ações e comprometia a segurança da informação.
-* **Processos manuais e descentralizados:** O controle de inventário de máquinas, a nomenclatura de ativos e o atendimento de solicitações de acesso dependiam de controles manuais e trocas de e-mails, elevando o risco de falhas humanas e inconsistências cadastrais.
-* **Falta de padronização e segregação de privilégios:** A ausência de políticas de grupo (GPOs) granulares e de separação clara entre ambientes acadêmicos e administrativos expunha os equipamentos a alterações indevidas e movimentação lateral de ameaças.
+## Por que o projeto é necessário
 
-Diante desse cenário, este projeto justifica-se pela necessidade de estabelecer uma **arquitetura lógica, governança e automação** para o serviço de diretório (**Active Directory Domain Services - AD DS**) da unidade, alinhada às normativas do **Centro Paula Souza (CPS)**, à **Lei Geral de Proteção de Dados (LGPD)** e aos frameworks de boas práticas **ITIL**, **COBIT** e **ISO/IEC 27001**.
+Antes do projeto, discentes e docentes utilizavam contas compartilhadas nos computadores. Esse modelo dificulta identificar quem realizou uma ação e conceder acessos conforme a função de cada pessoa. Além disso, o inventário e os nomes dos computadores são controlados manualmente, o que exige conferência constante para manter os registros atualizados.
 
-### Principais Benefícios Esperados
-* **Segurança e Conformidade:** Implementação de credenciais individuais com políticas rigorosas de complexidade, bloqueio por inatividade e princípio do menor privilégio (segregação entre contas cotidianas e administrativas).
-* **Eficiência Operacional:** Automação do provisionamento e ciclo de vida de contas (via scripts PowerShell integrados a fontes oficiais como o SIGA), reduzindo a carga manual da equipe de TI.
-* **Padronização e Auditoria:** Criação de convenções claras de nomenclatura para usuários, grupos e computadores, além de trilhas de auditoria para rastreamento de alterações e incidentes.
-* **Isolamento de Ambientes:** Separação lógica e de rede (VLANs e Unidades Organizacionais) entre os domínios **Acadêmico** e **Administrativo**, garantindo que cada perfil acesse estritamente os recursos necessários às suas atividades.
+A proposta de contas individuais e de permissões por perfil procura tornar os acessos mais organizados e permitir que a equipe de TI registre e acompanhe alterações. A padronização dos nomes, do cadastro e das políticas para computadores também busca reduzir inconsistências e facilitar o suporte.
+
+## O que o projeto propõe
+
+- Organizar os ambientes acadêmico e administrativo em dois domínios separados, com grupos e políticas conforme a necessidade de cada perfil.
+- Utilizar, para o cadastro de discentes, nome completo, RA e e-mail institucional fornecidos pela planilha do SIGA.
+- Documentar procedimentos para criação, alteração, bloqueio, recuperação, desativação e avaliação do expurgo de contas.
+- Padronizar a identificação dos computadores e apoiar a atualização do inventário manual.
+- Definir orientações para credenciais, políticas de grupo e auditoria, respeitando os acessos necessários a cada função.
+- Planejar a continuidade e a recuperação diante de falhas, incluindo a avaliação de um controlador adicional e de cópias de segurança protegidas e testadas.
+
+## Resultado esperado e situação do projeto
+
+O resultado esperado é oferecer à equipe de TI um guia para planejar e validar uma integração que facilite a gestão de contas e computadores, a aplicação de políticas e a recuperação após falhas. Os cenários e as medidas descritos são propostas: a implementação é parcial, e configurações, responsáveis, prazos e resultados ainda dependem de validação e testes institucionais.
